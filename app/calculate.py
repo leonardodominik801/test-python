@@ -6,7 +6,6 @@ class Calculate:
         """Takes two integers and adds them together 
         to produce the result.
         
-        >>> c = Calculate()
         >>> c.add(1, 1)
         2
 
@@ -28,4 +27,4 @@ class Calculate:
 
 if __name__ == '__main__':  # pragma: no cover
     import doctest
-    doctest.testmod()
+    doctest.testmod(extraglobs={'c': Calculate()})
