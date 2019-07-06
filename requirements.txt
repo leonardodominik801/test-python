@@ -4,3 +4,4 @@ rednose
 pytest
 pytest-cov
 mock
+requests
