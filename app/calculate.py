@@ -12,6 +12,11 @@ class Calculate:
 
         >>> c.add(25, 125)
         150
+
+        >>> c.add(1.0, 1.0)
+        Traceback (most recent call last):
+         ...
+        TypeError: Invalid type: <class 'float'> and <class 'float'>
         """
         
         if type(x) == int and type(y) == int:
