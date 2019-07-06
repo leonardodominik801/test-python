@@ -1,0 +1,13 @@
+************* Module bank.account
+bank/account.py:1:[C0111(missing-docstring), ] Missing module docstring
+bank/account.py:1:[C0111(missing-docstring), Account] Missing class docstring
+bank/account.py:1:[R0903(too-few-public-methods), Account] Too few public methods (0/2)
+************* Module bank.bank
+bank/bank.py:1:[C0111(missing-docstring), ] Missing module docstring
+bank/bank.py:1:[C0111(missing-docstring), Bank] Missing class docstring
+bank/bank.py:5:[C0111(missing-docstring), Bank.add_account] Missing method docstring
+bank/bank.py:8:[C0111(missing-docstring), Bank.get_account_balance] Missing method docstring
+
+------------------------------------------------------------------
+Your code has been rated at 3.64/10 (previous run: 3.64/10, +0.00)
+
